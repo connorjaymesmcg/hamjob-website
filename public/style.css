@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 20px;
+  scroll-behavior: smooth;
+}
+
 .row {
   margin: 0 auto;
   /* position: fixed; */
