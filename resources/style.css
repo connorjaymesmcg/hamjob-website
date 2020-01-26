@@ -4,7 +4,7 @@ TO DO:
 
 -ADD MEDIA QUEREY BREAKPOINT FOR MOBILE BG
 -STICKY NAV ON MOBILE
--CENTER NAV ON DESKTOP
+-
 
 
 */
@@ -43,6 +43,8 @@ h1 {
   font-size: 250%;
   word-spacing: 4px;
 }
+
+/* ------------------Header Content------------------------- */
 
 .header {
   background-image: url(./img/banner-img.jpg);
@@ -88,12 +90,11 @@ h1 {
 }
 
 .navbar {
-  padding: 0 0 1.5rem 0;
+  padding: 2rem 0 1.5rem 0;
   font-family: 'Rock Salt', sans-serif;
 }
 
 .navbar-collapse {
-  background: pink;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -110,6 +111,10 @@ h1 {
   display: inline-block;
   text-decoration: none;
   z-index: 4;
+}
+
+.band-name {
+  font-size: 24px;
 }
 
 /* .navigation li::after {
@@ -141,7 +146,7 @@ h1 {
 }
 
 .logo-box {
-  height: 150px;
+  height: 250px;
 }
 
 .cta {
@@ -154,13 +159,32 @@ h1 {
 }
 
 .cta img {
-  height: 300px;
+  height: 250px;
 }
 
-/* ------------------Content------------------------- */
+/* ------------------Body Content------------------------- */
 
 .main {
   text-align: center;
+  margin: 0 10rem;
+  justify-content: center;
+}
+
+.img-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.band-img {
+  height: 200px;
+  width: 200px;
+  display: block;
+  border-radius: 100%;
+}
+
+.music-content {
+  display: block;
 }
 
 /* ------------------Footer------------------------- */
