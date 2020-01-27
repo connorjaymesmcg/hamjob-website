@@ -58,7 +58,7 @@ hr.style13 {
   background-repeat: no-repeat;
   background-position: top;
   position: relative;
-  height: 80vh;
+  height: 100vh;
   /* border-bottom-left-radius: 50% 20%;
   border-bottom-right-radius: 50% 20%; */
 }
@@ -106,7 +106,10 @@ hr.style13 {
   justify-content: center;
 }
 
-.navbar-nav {}
+.navbar-nav {
+  display: flex !important;
+  align-items: center;
+}
 
 .nav-item {
   padding: 0 18px;
@@ -119,8 +122,8 @@ hr.style13 {
   z-index: 4;
 }
 
-.band-name {
-  font-size: 24px;
+.nav-logo {
+  height: 100px;
 }
 
 /* .navigation li::after {
@@ -198,7 +201,7 @@ hr.style13 {
 }
 
 .music-content {
-  display: block;
+  display: flex;
 }
 
 /* ------------------Footer------------------------- */
